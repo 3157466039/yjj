@@ -1,0 +1,24 @@
+
+
+ 
+    <nav class="navbar navbar-inverse" role="navigation">
+     <div class="container"> 
+       <button type="button" ng-click="back()" onClick="javascript: history.go(-1);" class="btn btn-link navbar-btn glyphicon glyphicon-chevron-left"></button>       <button type="button" class="pull-right btn btn-link navbar-btn glyphicon glyphicon-trash" ng-click="dit(x)"></button>
+       <button type="button" class="pull-right btn btn-link navbar-btn glyphicon glyphicon-edit" ng-click="gai()"></button> 
+       </div><!-- /.container-fluid --> 
+      </nav>
+
+
+<div class="container"> 
+  <div class="page-header"> 
+     <h1>
+          <input type="text" class="form-control input-lg" ng-model="x.title">
+       <small>2016-10-21</small>
+     </h1> 
+   <div>
+   <span class="label label-success">标签</span>
+ </div> 
+</div> 
+<p> <textarea class="form-control input-lg" rows="5" ng-model="x.content"></textarea></p> 
+
+</div>
